@@ -3,7 +3,7 @@
 namespace JMS\Payment\PaypalBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\Form\FormBuilder;
 
 /**
  * Type for Paypal Express Checkout.
@@ -12,7 +12,7 @@ use Symfony\Component\Form\FormBuilderInterface;
  */
 class ExpressCheckoutType extends AbstractType
 {
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilder $builder, array $options)
     {
     }
 
